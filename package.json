@@ -1,0 +1,6 @@
+{
+    "start": "cd /code && nodemon --exec 'yarn install && yarn start'",
+    "dependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
