@@ -9,3 +9,5 @@ COPY ./package.json /nodemon
 
 RUN cd /nodemon &&\
     yarn install
+
+ENTRYPOINT [ "/start.sh" ]
